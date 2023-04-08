@@ -5,3 +5,4 @@ class HomeController < ApplicationController
   def show 
     @home = Home.find(parms[:id])
 end
+end
